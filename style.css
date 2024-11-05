@@ -1,0 +1,144 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}  
+:root{
+    background-color:#974e24;
+    --btn-color:#EA1179;
+    --box-shadow:0px 0px 5px
+}
+header{
+    background-color: rgb(172, 47, 153);
+    
+}
+.hero{
+    height: 100dvh;
+    width: 100%;
+    background: #36295c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+nav{
+    width: %;
+    margin: auto;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 224, 65);
+    background-color: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul li a:hover{
+    color: rgb(219, 219, 241);
+}
+.info{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.info h1{
+    font-size: 40px;
+    color: #d5d7e0;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info h1 span{
+    color: rgb(241, 187, 187);
+}
+.info p{
+    color: #d6cccc;
+    line-height: 22px;
+}
+.info a{
+    background: #161616;
+    padding: 1px 18px;
+    text-decoration: rgb(194, 176, 176);
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.info h4{
+    margin-top: 3%;
+    color: rgb(190, 253, 15);
+}
+.right-img img{
+    height: 50%;
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+    scrollbar-darkshadow-color: #edebf1;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fc0217;
+    color: #ece4e4;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: line;
+    margin: 4px 15px;
+}
+
+nav a {
+    color: #9c1d1d;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+.project {
+    background: #d49d26;
+    margin: 1em 0;
+    padding: 1em;
+    color: #161616;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #611313;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.About{
+    background-color: #18d8fa;
+    color: #0a0a0a;
+}
+.about h2{
+    color: #1bd314d8;
+}
+.contact{
+    color: #161616;
+}
